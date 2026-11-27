@@ -1,0 +1,118 @@
+[
+  {
+    "species": "dog",
+    "name": "Labrador Retriever",
+    "traits": "Friendly, high energy, food-motivated. Needs daily exercise.",
+    "risks": [
+      {"condition": "Hip Dysplasia", "description": "The hip joint forms loosely, which leads to wear and arthritis over time.", "symptoms": ["Stiffness after rest", "Bunny-hopping gait", "Reluctance to climb stairs"], "prevention": ["Keep a lean body weight", "Avoid heavy jumping while growing", "Hip screening at your vet"], "severity": "high", "onset_min_years": 0.5, "onset_max_years": 2},
+      {"condition": "Obesity", "description": "Labs are prone to weight gain, which strains joints and the heart.", "symptoms": ["Ribs hard to feel", "No visible waist", "Tires quickly"], "prevention": ["Measure meals", "Limit treats", "Daily exercise"], "severity": "medium", "onset_min_years": 2, "onset_max_years": null},
+      {"condition": "Elbow Dysplasia", "description": "Abnormal elbow development that causes front-leg lameness.", "symptoms": ["Front-leg limping", "Elbow swelling", "Stiffness"], "prevention": ["Controlled growth diet for puppies", "Healthy weight"], "severity": "medium", "onset_min_years": 0.5, "onset_max_years": 1.5}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "German Shepherd",
+    "traits": "Loyal, intelligent, protective. Needs mental and physical work.",
+    "risks": [
+      {"condition": "Hip Dysplasia", "description": "The hip joint forms loosely, which leads to wear and arthritis over time.", "symptoms": ["Stiffness after rest", "Bunny-hopping gait", "Reluctance to climb stairs"], "prevention": ["Keep a lean body weight", "Avoid heavy jumping while growing", "Hip screening at your vet"], "severity": "high", "onset_min_years": 0.5, "onset_max_years": 2},
+      {"condition": "Bloat (GDV)", "description": "The stomach fills with gas and can twist. This is a life-threatening emergency.", "symptoms": ["Swollen belly", "Unproductive retching", "Restlessness"], "prevention": ["Feed smaller meals", "Avoid exercise right after eating", "Ask your vet about preventive gastropexy"], "severity": "high", "onset_min_years": 2, "onset_max_years": null},
+      {"condition": "Degenerative Myelopathy", "description": "A slow spinal cord disease that weakens the back legs.", "symptoms": ["Scuffing back paws", "Wobbly hind end", "Crossing back legs"], "prevention": ["Genetic testing", "Regular exercise to keep muscle"], "severity": "high", "onset_min_years": 8, "onset_max_years": 14}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "Golden Retriever",
+    "traits": "Gentle, eager to please, great with families.",
+    "risks": [
+      {"condition": "Hip Dysplasia", "description": "The hip joint forms loosely, which leads to wear and arthritis over time.", "symptoms": ["Stiffness after rest", "Bunny-hopping gait", "Reluctance to climb stairs"], "prevention": ["Keep a lean body weight", "Avoid heavy jumping while growing", "Hip screening at your vet"], "severity": "high", "onset_min_years": 0.5, "onset_max_years": 2},
+      {"condition": "Hypothyroidism", "description": "The thyroid gland makes too little hormone, which slows metabolism.", "symptoms": ["Weight gain", "Thinning coat", "Low energy"], "prevention": ["Annual blood work after age 4"], "severity": "medium", "onset_min_years": 4, "onset_max_years": 10},
+      {"condition": "Cancer (Hemangiosarcoma, Lymphoma)", "description": "Golden Retrievers have a higher than average cancer rate in later life.", "symptoms": ["New lumps", "Sudden weakness", "Pale gums", "Weight loss"], "prevention": ["Twice-yearly senior checkups", "Check for lumps monthly"], "severity": "high", "onset_min_years": 7, "onset_max_years": null}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "French Bulldog",
+    "traits": "Playful, affectionate, low exercise needs. Sensitive to heat.",
+    "risks": [
+      {"condition": "Brachycephalic Airway Syndrome", "description": "A short face and narrow airways make breathing harder, especially in heat.", "symptoms": ["Loud breathing or snoring", "Overheating", "Fainting after exercise"], "prevention": ["Avoid heat and intense exercise", "Use a harness, not a collar", "Keep a lean weight"], "severity": "high", "onset_min_years": 0.5, "onset_max_years": null},
+      {"condition": "Skin Fold Dermatitis", "description": "Moisture trapped in skin folds causes irritation and infection.", "symptoms": ["Redness in folds", "Odor", "Scratching"], "prevention": ["Clean and dry folds weekly"], "severity": "low", "onset_min_years": 1, "onset_max_years": null},
+      {"condition": "Intervertebral Disc Disease", "description": "Spinal discs bulge or rupture and press on the spinal cord.", "symptoms": ["Back pain", "Hunched posture", "Wobbly or dragging legs"], "prevention": ["Limit jumping off furniture", "Keep a lean weight"], "severity": "high", "onset_min_years": 3, "onset_max_years": 7}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "Dachshund",
+    "traits": "Bold, curious, vocal. Long back needs protecting.",
+    "risks": [
+      {"condition": "Intervertebral Disc Disease", "description": "Spinal discs bulge or rupture and press on the spinal cord.", "symptoms": ["Back pain", "Hunched posture", "Wobbly or dragging legs"], "prevention": ["Limit jumping off furniture", "Use ramps", "Keep a lean weight"], "severity": "high", "onset_min_years": 3, "onset_max_years": 7},
+      {"condition": "Dental Disease", "description": "Plaque and tartar build up and cause gum infection and tooth loss.", "symptoms": ["Bad breath", "Red gums", "Dropping food"], "prevention": ["Brush teeth several times a week", "Yearly dental checks"], "severity": "medium", "onset_min_years": 3, "onset_max_years": null}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "Beagle",
+    "traits": "Merry, curious, scent-driven. Can be an escape artist.",
+    "risks": [
+      {"condition": "Epilepsy", "description": "A brain condition that causes repeated seizures.", "symptoms": ["Seizures", "Staring spells", "Confusion after episodes"], "prevention": ["See a vet after any seizure", "Keep a seizure log"], "severity": "high", "onset_min_years": 1, "onset_max_years": 5},
+      {"condition": "Obesity", "description": "Beagles are very food-motivated and gain weight easily.", "symptoms": ["Ribs hard to feel", "No visible waist", "Tires quickly"], "prevention": ["Measure meals", "Secure food and trash", "Daily walks"], "severity": "medium", "onset_min_years": 2, "onset_max_years": null},
+      {"condition": "Hypothyroidism", "description": "The thyroid gland makes too little hormone, which slows metabolism.", "symptoms": ["Weight gain", "Thinning coat", "Low energy"], "prevention": ["Annual blood work after age 4"], "severity": "medium", "onset_min_years": 4, "onset_max_years": 10}
+    ]
+  },
+  {
+    "species": "dog",
+    "name": "Chihuahua",
+    "traits": "Small, alert, devoted to one person. Gets cold easily.",
+    "risks": [
+      {"condition": "Patellar Luxation", "description": "The kneecap slips out of place.", "symptoms": ["Skipping steps", "Holding a back leg up briefly"], "prevention": ["Keep a lean weight", "Vet knee check at puppy visits"], "severity": "medium", "onset_min_years": 0.5, "onset_max_years": 3},
+      {"condition": "Dental Disease", "description": "Small mouths crowd teeth, so plaque builds up quickly.", "symptoms": ["Bad breath", "Red gums", "Dropping food"], "prevention": ["Brush teeth several times a week", "Yearly dental checks"], "severity": "high", "onset_min_years": 2, "onset_max_years": null},
+      {"condition": "Mitral Valve Disease", "description": "A heart valve wears out and leaks, which can lead to heart failure.", "symptoms": ["Coughing", "Fast breathing at rest", "Tiring easily"], "prevention": ["Have your vet listen for murmurs yearly", "Count resting breathing rate"], "severity": "high", "onset_min_years": 8, "onset_max_years": null}
+    ]
+  },
+  {
+    "species": "cat",
+    "name": "Domestic Shorthair",
+    "traits": "Mixed-breed cat. Hardy, varied personality.",
+    "risks": [
+      {"condition": "Dental Disease", "description": "Plaque and tartar build up and cause gum infection and tooth loss.", "symptoms": ["Bad breath", "Drooling", "Chewing on one side"], "prevention": ["Regular dental cleanings", "Dental treats or brushing"], "severity": "medium", "onset_min_years": 3, "onset_max_years": 5},
+      {"condition": "Chronic Kidney Disease", "description": "Kidneys slowly lose function. Very common in older cats.", "symptoms": ["Drinking more", "Urinating more", "Weight loss"], "prevention": ["Kidney-friendly diet when advised", "Annual blood work", "Encourage hydration"], "severity": "medium", "onset_min_years": 7, "onset_max_years": null},
+      {"condition": "Hyperthyroidism", "description": "An overactive thyroid speeds up metabolism.", "symptoms": ["Weight loss with big appetite", "Restlessness", "Vomiting"], "prevention": ["Annual senior blood work"], "severity": "medium", "onset_min_years": 10, "onset_max_years": null}
+    ]
+  },
+  {
+    "species": "cat",
+    "name": "Maine Coon",
+    "traits": "Large, gentle, social. Long coat needs brushing.",
+    "risks": [
+      {"condition": "Hypertrophic Cardiomyopathy", "description": "The heart muscle thickens, which makes it pump poorly.", "symptoms": ["Fast or open-mouth breathing", "Lethargy", "Sudden back-leg weakness"], "prevention": ["Genetic testing", "Heart screening (echocardiogram)"], "severity": "high", "onset_min_years": 1, "onset_max_years": null},
+      {"condition": "Hip Dysplasia", "description": "Unusual in cats, but more common in large breeds like the Maine Coon.", "symptoms": ["Reluctance to jump", "Stiff walking"], "prevention": ["Keep a lean weight"], "severity": "medium", "onset_min_years": 1, "onset_max_years": null},
+      {"condition": "Spinal Muscular Atrophy", "description": "An inherited loss of spinal nerve cells that weakens the back legs.", "symptoms": ["Swaying gait", "Weak back legs"], "prevention": ["Genetic testing"], "severity": "medium", "onset_min_years": 0.25, "onset_max_years": 0.5}
+    ]
+  },
+  {
+    "species": "cat",
+    "name": "Persian",
+    "traits": "Calm, quiet, affectionate. Daily grooming needed.",
+    "risks": [
+      {"condition": "Polycystic Kidney Disease", "description": "An inherited condition where cysts form in the kidneys.", "symptoms": ["Drinking more", "Weight loss", "Poor appetite"], "prevention": ["Genetic testing", "Kidney ultrasound", "Annual blood work"], "severity": "high", "onset_min_years": 3, "onset_max_years": 10},
+      {"condition": "Brachycephalic Airway Syndrome", "description": "A flat face narrows the airways and tear ducts.", "symptoms": ["Noisy breathing", "Runny eyes"], "prevention": ["Avoid heat", "Wipe eyes daily"], "severity": "medium", "onset_min_years": 0.5, "onset_max_years": null}
+    ]
+  },
+  {
+    "species": "cat",
+    "name": "Siamese",
+    "traits": "Vocal, people-oriented, active.",
+    "risks": [
+      {"condition": "Asthma", "description": "Inflamed airways make breathing difficult.", "symptoms": ["Coughing", "Wheezing", "Open-mouth breathing"], "prevention": ["Dust-free litter", "Avoid smoke and sprays"], "severity": "medium", "onset_min_years": 2, "onset_max_years": 8},
+      {"condition": "Dental Disease", "description": "Plaque and tartar build up and cause gum infection and tooth loss.", "symptoms": ["Bad breath", "Drooling", "Chewing on one side"], "prevention": ["Regular dental cleanings", "Dental treats or brushing"], "severity": "medium", "onset_min_years": 3, "onset_max_years": 5}
+    ]
+  },
+  {
+    "species": "cat",
+    "name": "Ragdoll",
+    "traits": "Relaxed, affectionate, goes limp when held.",
+    "risks": [
+      {"condition": "Hypertrophic Cardiomyopathy", "description": "The heart muscle thickens, which makes it pump poorly.", "symptoms": ["Fast or open-mouth breathing", "Lethargy", "Sudden back-leg weakness"], "prevention": ["Genetic testing", "Heart screening (echocardiogram)"], "severity": "high", "onset_min_years": 1, "onset_max_years": null},
+      {"condition": "Bladder Stones", "description": "Mineral stones form in the bladder and irritate it.", "symptoms": ["Straining to urinate", "Blood in urine", "Urinating outside the litter box"], "prevention": ["Encourage water intake", "Wet food"], "severity": "medium", "onset_min_years": 2, "onset_max_years": null}
+    ]
+  }
+]
